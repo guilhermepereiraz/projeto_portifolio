@@ -1,0 +1,131 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'Dounf';
+    src: url(Fontes/kg_red_hands/KGRedHands.ttf);
+}
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background: linear-gradient(#2b2726, #0a516d);
+    background-repeat: no-repeat;
+}
+
+div {
+    text-align: center;
+    width: 80%;
+    height: 1200px;
+    margin: auto;
+    margin-top: 50px;
+    background-color: white;
+    border-end-end-radius: 80px;
+    border-top-left-radius: 80px;
+    border-top-right-radius: 20px;
+    border-end-start-radius: 20px;
+    box-shadow: 2px 3px 3px 3px rgba(0, 0, 0, 0.505);
+}  
+
+nav {
+    display: inline-flex;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+
+
+}
+
+img {
+    width: 220px;
+    border-radius: 150px;
+    border: 2px solid black;
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+    box-shadow: 5px 2px 2px 2px rgba(91, 91, 91, 0.505);
+}
+
+.nav {
+    padding-top: 20px;
+    padding-right: 230px;
+    padding-left: 80px;
+    font-family: 'Dounf';
+    
+
+}
+
+.nav:hover {
+    color: #616161a2;
+    transform: scale(1.1);
+    transition: 1.0s;
+    
+    
+}
+
+nav, a {
+
+    text-decoration: none;
+    color: black;
+    
+    
+}
+
+section#princ {
+    padding: 30px;
+    font-weight: lighter;
+    text-align: justify;
+    
+
+}
+
+section#formats {
+    text-align: justify;
+    padding-left: 30px;
+    padding-top: 30px;
+   
+}
+
+section#cursos{
+    text-align: justify;
+    padding-left: 30px;
+    padding-top: 30px;
+
+}
+
+.h1sc {
+    font-size: 50px;
+    font-family: 'Dounf';
+
+}
+
+.h1sc2 {
+    font-size: 20px;
+    color: rgba(99, 96, 96, 0.378);
+    font-family: 'Dounf';
+}
+
+.h1sc3 {
+    font-family: 'Dounf';
+    padding-bottom: 15px;
+    
+}
+
+
+
+.forms1 {
+    font-family: 'Dounf';
+    font-size: 30px;
+}
+
+.cursds {
+    font-family: 'Dounf';
+    font-size: 30px;
+}
+
+footer {
+    margin-top: 150px;
+}
+
